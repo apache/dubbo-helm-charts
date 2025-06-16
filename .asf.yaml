@@ -24,3 +24,5 @@ github:
     - dubbo
     - helm
     - kubernetes
+  ghp_branch:  gh-pages
+  ghp_path:    /
