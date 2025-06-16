@@ -6,7 +6,7 @@
 Usage
 Helm must be installed to use the charts. Please refer to Helm's documentation to get started.
 
-License
+## License
 
 [Apache 2.0 License](https://github.com/apache/dubbo-helm-charts/blob/gh-pages/LICENSE)
 

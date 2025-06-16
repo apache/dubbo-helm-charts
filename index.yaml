@@ -5,9 +5,9 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-16T15:37:30.881756523Z"
+    created: "2025-06-16T23:47:07.116206542Z"
     description: Helm chart for dubbo admin dashboard.
-    digest: 196607a1115cee867b8e854a593dc7e6570cd431aeeefbc409595e4ad4c0715d
+    digest: d12365d013b88f6930eb0f0c51c53630307f01390595b7d25560ff3ec6078b46
     home: https://github.com/apache/dubbo-kubernetes
     icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
@@ -25,9 +25,9 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-16T15:37:30.882205813Z"
+    created: "2025-06-16T23:47:07.11661222Z"
     description: Helm chart for deploying dubbo cluster resources and CRDs.
-    digest: 5406c32cd0051cb4165ada68d8e75187a7e9d6f8304bf8a06a8acece23f75635
+    digest: 6f78b4a98c4415542f644eefc5e99865055e7c6ce4f112b9f4fc5fc701d4f525
     home: https://github.com/apache/dubbo-kubernetes
     icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
@@ -45,9 +45,9 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-16T15:37:30.882743103Z"
+    created: "2025-06-16T23:47:07.117126652Z"
     description: Helm chart for nacos register plane.
-    digest: f86e9a849837d5eb52a60ab84e7ec2c1d0c1cd006483b3a5c050c51ba72ddb78
+    digest: 6257ec8420a153b877e4930d37b2e0270e336f2baeb1a61031ee433bcbc74d3f
     home: https://github.com/apache/dubbo-kubernetes
     icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
@@ -65,9 +65,9 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-16T15:37:30.883214852Z"
+    created: "2025-06-16T23:47:07.117542748Z"
     description: Helm chart for zookeeper register plane.
-    digest: cc6df7fbaec3f789dd04f428be45395290d6792fe9381b4f8ce07b27552ce4ac
+    digest: 7bd4a1e62d2f3bcdbb9efb776d9c7f3be263d4621a3909556eb7c491b4e1fbc4
     home: https://github.com/apache/dubbo-kubernetes
     icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
@@ -80,4 +80,4 @@ entries:
     urls:
     - https://charts.dubbo.apache.org/zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-16T15:37:30.880978817Z"
+generated: "2025-06-16T23:47:07.115582648Z"
