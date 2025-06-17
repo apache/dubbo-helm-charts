@@ -12,10 +12,6 @@ helm repo add dubbo https://charts.dubbo.apache.org
 ```
 You can then run `helm search repo dubbo` to see the charts.
 
-
-
-
-
 ## License
 
 [Apache 2.0 License](https://github.com/apache/dubbo-helm-charts/blob/gh-pages/LICENSE)
