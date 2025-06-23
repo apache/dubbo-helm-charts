@@ -5,10 +5,11 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-23T08:53:05.775818081Z"
+    created: "2025-06-23T10:35:28.949352134Z"
     description: Helm chart for dubbo admin dashboard.
-    digest: 832ce2de86932cbcc842382c6785a40d2eb0a7e0f78ab823fe1011c679387017
+    digest: 853d18b17c1a69ea6aea1775c50f359484a3f8ead59e4383e136df4eb6577b92
     home: https://github.com/apache/dubbo-kubernetes
+    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
     - email: zhongxjian@apache.org
       name: mfordjody
@@ -23,7 +24,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-17T00:41:29.819142793Z"
+    created: "2025-06-23T10:35:28.948888009Z"
     description: Helm chart for dubbo admin dashboard.
     digest: 9ca18734bcda6dc1f15691e245b8dc7d9411995d3e4bb2b42370a1c561b9311d
     home: https://github.com/apache/dubbo-kubernetes
@@ -43,10 +44,11 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-23T08:53:05.77660808Z"
+    created: "2025-06-23T10:35:28.95021305Z"
     description: Helm chart for deploying dubbo cluster resources and CRDs.
-    digest: 919ce79fdf169c21d0743c5aca12466439e703f8d9f76d7f56233c62f4706797
+    digest: 332914520775a3235bc5c15cda227a2bdd9ddec88eeb49a92c6ecd91bdee066b
     home: https://github.com/apache/dubbo-kubernetes
+    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
     - email: zhongxjian@apache.org
       name: mfordjody
@@ -61,7 +63,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-17T00:41:29.819716842Z"
+    created: "2025-06-23T10:35:28.949840467Z"
     description: Helm chart for deploying dubbo cluster resources and CRDs.
     digest: 1f52ccf61229f45d2dd3c8a0f3be79fba748d659cc168f8582a7d603112f3d42
     home: https://github.com/apache/dubbo-kubernetes
@@ -81,10 +83,11 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-23T08:53:05.777376496Z"
+    created: "2025-06-23T10:35:28.951281967Z"
     description: Helm chart for nacos register plane.
-    digest: 25c8103d0e2b2fb3e452ec73e00c9d3cbc18cda0d586ed4f304b77afcbc8a63e
+    digest: 7da9914f32e16c9f5f4c59462d76ed565b139546e08f5ecad81c97b8004fc53b
     home: https://github.com/apache/dubbo-kubernetes
+    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
     - email: zhongxjian@apache.org
       name: mfordjody
@@ -99,7 +102,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-17T00:41:29.820493226Z"
+    created: "2025-06-23T10:35:28.950778259Z"
     description: Helm chart for nacos register plane.
     digest: 5002fbefe31920ac299175cecd0ed0cba8a56e1830d7d5f8b8e332d56c63cc88
     home: https://github.com/apache/dubbo-kubernetes
@@ -119,10 +122,11 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-23T08:53:05.778041912Z"
+    created: "2025-06-23T10:35:28.952205259Z"
     description: Helm chart for zookeeper register plane.
-    digest: bd346616948edbe2a5d3a64825b556fc7f4ebdf46c955aad1b028a84028d6ef8
+    digest: bdcfdf5b2ecff7620752b4b9743d79ef085466be7d78d7f4691770a1c6543232
     home: https://github.com/apache/dubbo-kubernetes
+    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
     - email: zhongxjian@apache.org
       name: mfordjody
@@ -137,7 +141,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-17T00:41:29.821303568Z"
+    created: "2025-06-23T10:35:28.951712092Z"
     description: Helm chart for zookeeper register plane.
     digest: a6d5371377d9ca49fc432734357c5ba6cb6c2f3234cb3636ca2c9473bb5d1930
     home: https://github.com/apache/dubbo-kubernetes
@@ -152,4 +156,4 @@ entries:
     urls:
     - https://charts.dubbo.apache.org/zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-23T08:53:05.774203125Z"
+generated: "2025-06-23T10:35:28.9481663Z"
