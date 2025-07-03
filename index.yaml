@@ -5,10 +5,11 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-07-03T08:34:25.914730731Z"
+    created: "2025-07-03T10:53:05.473924682Z"
     description: Helm chart for dubbo admin dashboard.
-    digest: 02355fc9fccefac01c1881f86b9bc7e30b8204ed68c41f721fe527e6f3c97b73
+    digest: 58cd8dac1adec1a8ec75b3b185b38fd7f7198e4f375b9e6230260c14a1f49cc2
     home: https://github.com/apache/dubbo-kubernetes
+    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
     - email: zhongxjian@apache.org
       name: mfordjody
@@ -62,10 +63,11 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-07-03T08:34:25.915302793Z"
+    created: "2025-07-03T10:53:05.474468963Z"
     description: Helm chart for deploying dubbo cluster resources and CRDs.
-    digest: 4e68e127757433399dccd221ba1736620c56004dbddeb86dd0ea7ad82c980b94
+    digest: 1aafe2be07c6eede68cfb766332f4f40de3c18d7f0f87c09bd57472c05d28c9c
     home: https://github.com/apache/dubbo-kubernetes
+    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
     - email: zhongxjian@apache.org
       name: mfordjody
@@ -119,10 +121,11 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-07-03T08:34:25.916037694Z"
+    created: "2025-07-03T10:53:05.475173727Z"
     description: Helm chart for nacos register plane.
-    digest: 3166a973f61f7b738a4f47ed5184e4f174e2d3c878e1ef9f744c3cb386e5e8d7
+    digest: ca9d7600aefe253a1c8921ce2ac2a033f442b1d2b08c917e721c6e59e8f95490
     home: https://github.com/apache/dubbo-kubernetes
+    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
     - email: zhongxjian@apache.org
       name: mfordjody
@@ -176,10 +179,11 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-07-03T08:34:25.916625424Z"
+    created: "2025-07-03T10:53:05.475705883Z"
     description: Helm chart for zookeeper register plane.
-    digest: b57828e196befebfc9b6c63a45b0cc0402fc4c0653e8a016b4013b48f75e3199
+    digest: f3bfe800e3740e5eadaf9ee24feef61177cc1398ccf8eeee1b6eb50fd1f38655
     home: https://github.com/apache/dubbo-kubernetes
+    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
     - email: zhongxjian@apache.org
       name: mfordjody
@@ -228,4 +232,4 @@ entries:
     urls:
     - https://charts.dubbo.apache.org/zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-03T08:34:25.913827282Z"
+generated: "2025-07-03T10:53:05.473161299Z"
