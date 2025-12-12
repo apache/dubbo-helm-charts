@@ -5,7 +5,7 @@
 
 <p align="left">
   <a href="https://dubbo.apache.org/">
-    <img src="logo/dubbo-transparentbackground-unframed.svg" alt="Apache Dubbo" title="Apache Dubbo" width="160" height="240" >
+    <img src="logo/dubbo-transparentbackground-unframed.svg" alt="Apache Dubbo" title="Apache Dubbo" width="240" height="320" >
   </a>
 </p>
 
