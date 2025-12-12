@@ -3,13 +3,11 @@
 ![license](https://img.shields.io/badge/license-Apache--2.0-green.svg)
 ![Helm: v3](https://img.shields.io/static/v1?label=Helm&message=v3&color=informational&logo=helm)
 
-<div style="text-align: left;">
+<p align="left">
   <a href="https://dubbo.apache.org/">
-      <picture>
-        <img title="Apache Dubbo" alt="Apache Dubbo logo" src="logo/dubbo-transparentbackground-unframed.svg">
-      </picture>
+    <img src="logo/dubbo-transparentbackground-unframed.svg" alt="Apache Dubbo" title="Apache Dubbo" width="160" height="240" >
   </a>
-</div>
+</p>
 
 This project is the official Chart repository for all applications, maintained by the Dubbo official team.
 
