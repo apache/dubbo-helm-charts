@@ -1,0 +1,171 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: pixiu-gateway-role
+  labels:
+    control-plane: pixiu-gateway
+rules:
+  - apiGroups:
+      - ""
+    resources:
+      - events
+    verbs:
+      - create
+      - patch
+  - apiGroups:
+      - ""
+    resources:
+      - namespaces
+      - pods
+      - services
+      - configmaps
+    verbs:
+      - get
+      - list
+      - watch
+      - create
+      - update
+      - patch
+      - delete
+  - apiGroups:
+      - apps
+    resources:
+      - deployments
+    verbs:
+      - get
+      - list
+      - watch
+      - create
+      - update
+      - patch
+      - delete
+  - apiGroups:
+      - coordination.k8s.io
+    resources:
+      - leases
+    verbs:
+      - create
+      - delete
+      - get
+      - list
+      - patch
+      - update
+      - watch
+  - apiGroups:
+      - discovery.k8s.io
+    resources:
+      - endpointslices
+    verbs:
+      - get
+      - list
+      - watch
+  - apiGroups:
+      - gateway.networking.k8s.io
+    resources:
+      - gatewayclasses
+      - gateways
+    verbs:
+      - get
+      - list
+      - watch
+      - update
+      - patch
+  - apiGroups:
+      - gateway.networking.k8s.io
+    resources:
+      - gatewayclasses/status
+      - gateways/status
+      - httproutes/status
+      - referencegrants/status
+    verbs:
+      - get
+      - update
+      - patch
+  - apiGroups:
+      - gateway.networking.k8s.io
+    resources:
+      - httproutes
+    verbs:
+      - get
+      - list
+      - watch
+  - apiGroups:
+      - gateway.networking.k8s.io
+    resources:
+      - referencegrants
+    verbs:
+      - get
+      - list
+      - watch
+  - apiGroups:
+      - ""
+    resources:
+      - secrets
+    verbs:
+      - get
+      - list
+      - watch
+  - apiGroups:
+      - pixiu.apache.org
+    resources:
+      - pixiugatewaypolicies
+    verbs:
+      - get
+      - list
+      - watch
+  - apiGroups:
+      - pixiu.apache.org
+    resources:
+      - pixiugatewaypolicies/status
+    verbs:
+      - get
+      - update
+      - patch
+  - apiGroups:
+      - pixiu.apache.org
+    resources:
+      - pixiuclusterpolicies
+    verbs:
+      - get
+      - list
+      - watch
+  - apiGroups:
+      - pixiu.apache.org
+    resources:
+      - pixiuclusterpolicies/status
+    verbs:
+      - get
+      - update
+      - patch
+  - apiGroups:
+      - pixiu.apache.org
+    resources:
+      - pixiufilterpolicies
+    verbs:
+      - get
+      - list
+      - watch
+  - apiGroups:
+      - pixiu.apache.org
+    resources:
+      - pixiufilterpolicies/status
+    verbs:
+      - get
+      - update
+      - patch
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: pixiu-gateway-rolebinding
+  labels:
+    control-plane: pixiu-gateway
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: pixiu-gateway-role
+subjects:
+  - kind: ServiceAccount
+    name: pixiu-gateway-sa
+    namespace: {{ .Release.Namespace }}

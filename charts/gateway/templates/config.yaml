@@ -1,0 +1,29 @@
+apiVersion: gateway.networking.k8s.io/v1
+kind: GatewayClass
+metadata:
+  name: pg
+spec:
+  {{- with .Values.config.pixiuGateway }}
+  controllerName: {{ .gateway.controllerName }}
+  {{- end }}
+---
+apiVersion: gateway.networking.k8s.io/v1
+kind: Gateway
+metadata:
+  name: pixiu
+  namespace: {{ .Release.Namespace }}
+spec:
+  gatewayClassName: pg
+  listeners:
+    - name: http
+      protocol: HTTP
+      port: 8888
+    - name: dubbo
+      protocol: TCP
+      port: 8889
+    - name: triple
+      protocol: GRPC
+      port: 9999
+    - name: http2
+      protocol: HTTP2
+      port: 8881

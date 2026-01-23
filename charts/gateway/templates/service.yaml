@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pixiu-gateway
+  namespace: {{ .Release.Namespace }}
+  labels:
+    control-plane: pixiu-gateway
+spec:
+  selector:
+    control-plane: pixiu-gateway
+  ports:
+    {{- if .Values.deployment.pixiuGateway }}
+    {{- with .Values.deployment.pixiuGateway.ports }}
+    - name: metrics
+      protocol: {{ .protocol }}
+      port: 8080
+      targetPort: {{ .metricsContainerPort }}
+    - name: health
+      protocol: {{ .protocol }}
+      port: 8081
+      targetPort: {{ .healthContainerPort }}
+    {{- end }}
+    {{- end }}
+  type: {{ .Values.deployment.pixiuGateway.service.type }}

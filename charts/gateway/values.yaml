@@ -1,0 +1,31 @@
+config:
+  pixiuGateway:
+    gateway:
+      controllerName: pixiu.apache.org/pixiu-gateway-controller
+
+deployment:
+  annotations: {}
+  pod:
+    labels: {}
+    annotations: {}
+#      prometheus.io/scrape: 'true'
+#      prometheus.io/port: '10000'
+  pixiuGateway:
+    image:
+      repository: "mfordjody/pixiugateway-controller"
+      tag: "debug"
+      imagePullPolicy: "Always"
+      imagePullSecrets: []
+    resources:
+      limits:
+        cpu: 500m
+        memory: 512Mi
+      requests:
+        cpu: 10m
+        memory: 64Mi
+    ports:
+      healthContainerPort: 8081
+      metricsContainerPort: 8080
+      protocol: TCP
+    service:
+      type: ClusterIP

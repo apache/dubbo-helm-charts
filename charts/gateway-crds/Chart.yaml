@@ -1,0 +1,22 @@
+apiVersion: v2
+name: pixiu-gateway-crds
+description: A Helm chart for Pixiu Gateway CRDs
+type: application
+
+version: 1.0.0
+appVersion: "latest"
+
+sources:
+  - https://github.com/apache/dubbo-go-pixiu
+
+home: https://dubbo.apache.org/
+
+keywords:
+  - gateway-api
+  - pg
+  - pixiuproxy
+  - pixiu-gateway
+
+maintainers:
+  - name: mfordjody
+    email: zhongxjian@apache.org
