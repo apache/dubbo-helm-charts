@@ -1,90 +1,32 @@
 apiVersion: v1
 entries:
-  admin:
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.065021548Z"
-    description: Helm chart for dubbo admin dashboard.
-    digest: 0aef6043cd73ba2f0cce12801dd1d1b93f45392ec5c807c6f57574697d393a0c
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: admin
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/admin-0.3.0.tgz
-    version: 0.3.0
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.063683426Z"
-    description: Helm chart for dubbo admin dashboard.
-    digest: 58cd8dac1adec1a8ec75b3b185b38fd7f7198e4f375b9e6230260c14a1f49cc2
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: admin
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/admin-0.1.2.tgz
-    version: 0.1.2
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.062931844Z"
-    description: Helm chart for dubbo admin dashboard.
-    digest: 853d18b17c1a69ea6aea1775c50f359484a3f8ead59e4383e136df4eb6577b92
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: admin
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/admin-0.1.1.tgz
-    version: 0.1.1
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.062116679Z"
-    description: Helm chart for dubbo admin dashboard.
-    digest: 9ca18734bcda6dc1f15691e245b8dc7d9411995d3e4bb2b42370a1c561b9311d
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: admin
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/admin-0.1.0.tgz
-    version: 0.1.0
   base:
   - annotations:
       licenses: Apache-2.0
     apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.067710792Z"
+    appVersion: latest
+    created: "2026-02-12T05:02:51.111445148Z"
     description: Helm chart for deploying dubbo cluster resources and CRDs.
-    digest: c23b929d491e5a4fc19178c9f479927c41a83f3b1431df4efe20edc84735e183
+    digest: 92338b484db58ecfa68134696e07a027d590687f8e4e5a0cac4ca28995caafe0
+    home: https://github.com/apache/dubbo-kubernetes
+    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
+    maintainers:
+    - email: zhongxjian@apache.org
+      name: mfordjody
+    name: base
+    sources:
+    - https://dubbo.apache.org
+    - https://github.com/apache/dubbo-kubernetes
+    urls:
+    - https://charts.dubbo.apache.org/base-0.3.5.tgz
+    version: 0.3.5
+  - annotations:
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: latest
+    created: "2026-02-12T05:02:51.110577152Z"
+    description: Helm chart for deploying dubbo cluster resources and CRDs.
+    digest: 9c17cbb9528eda2c5d1a2b08d379784f83856125414ada21de23e495bc654f78
     home: https://github.com/apache/dubbo-kubernetes
     icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
@@ -97,71 +39,37 @@ entries:
     urls:
     - https://charts.dubbo.apache.org/base-0.3.0.tgz
     version: 0.3.0
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.067037377Z"
-    description: Helm chart for deploying dubbo cluster resources and CRDs.
-    digest: 1aafe2be07c6eede68cfb766332f4f40de3c18d7f0f87c09bd57472c05d28c9c
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: base
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/base-0.1.2.tgz
-    version: 0.1.2
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.066411253Z"
-    description: Helm chart for deploying dubbo cluster resources and CRDs.
-    digest: 332914520775a3235bc5c15cda227a2bdd9ddec88eeb49a92c6ecd91bdee066b
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: base
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/base-0.1.1.tgz
-    version: 0.1.1
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.065564213Z"
-    description: Helm chart for deploying dubbo cluster resources and CRDs.
-    digest: 1f52ccf61229f45d2dd3c8a0f3be79fba748d659cc168f8582a7d603112f3d42
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: base
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/base-0.1.0.tgz
-    version: 0.1.0
   dubbod:
   - annotations:
       licenses: Apache-2.0
     apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.070350453Z"
+    appVersion: latest
+    created: "2026-02-12T05:02:51.112825266Z"
     description: Helm chart for dubbo control plane.
-    digest: 1724f8197898800cb7db1ca5e7aa745c7ac1825b4d65ead084e03cb7d0012075
+    digest: 8131e00076d18ba26236ccf4aac3bc2c108cb36212d800986ed5ccf2d7f1c48e
+    home: https://github.com/apache/dubbo-kubernetes
+    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
+    keywords:
+    - dubbo
+    - dubbod
+    - dubbo-discovery
+    maintainers:
+    - email: zhongxjian@apache.org
+      name: mfordjody
+    name: dubbod
+    sources:
+    - https://dubbo.apache.org
+    - https://github.com/apache/dubbo-kubernetes
+    urls:
+    - https://charts.dubbo.apache.org/dubbod-0.3.5.tgz
+    version: 0.3.5
+  - annotations:
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: latest
+    created: "2026-02-12T05:02:51.112160977Z"
+    description: Helm chart for dubbo control plane.
+    digest: 75b944a405bed74a4e1b8806c49d92b092bff01d9082723dc2d3dd5389b41144
     home: https://github.com/apache/dubbo-kubernetes
     icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     keywords:
@@ -183,9 +91,9 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.074565652Z"
+    created: "2026-02-12T05:02:51.11367472Z"
     description: Helm chart for nacos register plane.
-    digest: c4c7c80918745f11ff90415ee169ab60650d6174fa0919a1d89ac54d46eb98f9
+    digest: 5d2ec3e2e5ff0fd1530008f51837d8c1f1a0ac31b155c51c4f4622f94692e5a1
     home: https://github.com/apache/dubbo-kubernetes
     icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
@@ -194,75 +102,17 @@ entries:
     name: nacos
     sources:
     - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
     urls:
-    - https://charts.dubbo.apache.org/nacos-0.3.0.tgz
-    version: 0.3.0
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.073574404Z"
-    description: Helm chart for nacos register plane.
-    digest: ca9d7600aefe253a1c8921ce2ac2a033f442b1d2b08c917e721c6e59e8f95490
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: nacos
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/nacos-0.1.2.tgz
-    version: 0.1.2
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.072172199Z"
-    description: Helm chart for nacos register plane.
-    digest: 7da9914f32e16c9f5f4c59462d76ed565b139546e08f5ecad81c97b8004fc53b
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: nacos
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/nacos-0.1.1.tgz
-    version: 0.1.1
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.071403575Z"
-    description: Helm chart for nacos register plane.
-    digest: 5002fbefe31920ac299175cecd0ed0cba8a56e1830d7d5f8b8e332d56c63cc88
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: nacos
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/nacos-0.1.0.tgz
-    version: 0.1.0
+    - https://charts.dubbo.apache.org/nacos-2.5.1.tgz
+    version: 2.5.1
   zookeeper:
   - annotations:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.077034938Z"
+    created: "2026-02-12T05:02:51.114395341Z"
     description: Helm chart for zookeeper register plane.
-    digest: 16e6b09573c5a10990ccb67aaa5ad36a4b5e691e4f9dc4bcc582b08ca5647462
+    digest: 8db4818ccaf30a03b428717215661d78c86db76e4709470c36ee8bf290561b78
     home: https://github.com/apache/dubbo-kubernetes
     icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
     maintainers:
@@ -271,65 +121,7 @@ entries:
     name: zookeeper
     sources:
     - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
     urls:
-    - https://charts.dubbo.apache.org/zookeeper-0.3.0.tgz
-    version: 0.3.0
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.076383898Z"
-    description: Helm chart for zookeeper register plane.
-    digest: f3bfe800e3740e5eadaf9ee24feef61177cc1398ccf8eeee1b6eb50fd1f38655
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: zookeeper
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/zookeeper-0.1.2.tgz
-    version: 0.1.2
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.075829149Z"
-    description: Helm chart for zookeeper register plane.
-    digest: bdcfdf5b2ecff7620752b4b9743d79ef085466be7d78d7f4691770a1c6543232
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: zookeeper
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/zookeeper-0.1.1.tgz
-    version: 0.1.1
-  - annotations:
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-12-01T15:07:58.07518815Z"
-    description: Helm chart for zookeeper register plane.
-    digest: a6d5371377d9ca49fc432734357c5ba6cb6c2f3234cb3636ca2c9473bb5d1930
-    home: https://github.com/apache/dubbo-kubernetes
-    icon: https://avatars.githubusercontent.com/u/11751992?s=200&v=4
-    maintainers:
-    - email: zhongxjian@apache.org
-      name: mfordjody
-    name: zookeeper
-    sources:
-    - https://dubbo.apache.org
-    - https://github.com/apache/dubbo-kubernetes
-    urls:
-    - https://charts.dubbo.apache.org/zookeeper-0.1.0.tgz
-    version: 0.1.0
-generated: "2025-12-01T15:07:58.060361266Z"
+    - https://charts.dubbo.apache.org/zookeeper-3.9.4.tgz
+    version: 3.9.4
+generated: "2026-02-12T05:02:51.109495866Z"
