@@ -24,5 +24,18 @@ github:
     - dubbo
     - helm
     - kubernetes
-  ghp_branch:  gh-pages
-  ghp_path:    /
+  ghp_branch: gh-pages
+  ghp_path: /
+  rulesets:
+    - name: "Default Branch Protection"
+      type: branch
+      branches:
+        includes:
+          - "~DEFAULT_BRANCH"
+          - "release/*"
+          - "rel/*"
+        excludes: []
+      bypass_teams:
+        - root
+      restrict_deletion: true
+      restrict_force_push: true
